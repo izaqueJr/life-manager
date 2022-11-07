@@ -1,16 +1,16 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Task from '../components/Task';
-import { TaskProvider, useTask } from '../Providers/Task';
-import AddTask from './../components/AddTask/index';
+import { TaskProvider } from '../Providers/Task';
+import HeaderTask from '../components/HeaderTask';
 
 export default function Home() {
 
   return (
     <TaskProvider  >
-      <section>
-        <AddTask />
-      </section>
+      
+      <HeaderTask />
+      
       <Task />
 
     </TaskProvider>

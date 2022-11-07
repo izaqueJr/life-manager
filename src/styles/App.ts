@@ -1,13 +1,15 @@
 import { styled } from '@stitches/react';
 
 const Header = styled('header', {
-  backgroundColor: 'gainsboro',
-  fontFamily: 'Source Code Pro',
-  fontSize: '13px',
-  padding: '10px 15px',
-  '&:hover': {
-    backgroundColor: 'lightgray',
-  },
+
+  '& h1': {
+    fontFamily: 'Inter',
+    fontStyle: 'normal',
+    fontWeight: '900',
+    fontSize: '30px',
+    lineHeight: '34px',
+    color: '#ffffff'
+  }
 });
 
-export default Header;
+export {Header};

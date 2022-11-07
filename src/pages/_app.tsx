@@ -1,12 +1,12 @@
 import type { AppProps } from 'next/app'
-import Header from '../styles/App'
+import {Header} from '../styles/App'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Header>
+      {/* <Header>
         <h1>Life Manager</h1>
-      </Header>
+      </Header> */}
 
       <Component {...pageProps} />
     </>
